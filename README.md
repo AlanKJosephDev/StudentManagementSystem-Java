@@ -19,12 +19,14 @@ The project allows users to **Insert, Update, Delete, Search, and Display studen
 - Eclipse IDE / Maven project structure
 
 ## Folder Structure
+```
 StudentManagementSystem/
 │
 ├─ src/main/java/task5/MenuDrivenProgram.java
 ├─ src/main/java/com/student/StudentJDBC/DBConnection.java
 ├─ pom.xml
 └─ target/
+```
 
 ## How to Run
 1. Clone the repository:
