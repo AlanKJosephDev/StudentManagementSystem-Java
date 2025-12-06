@@ -28,10 +28,15 @@ StudentManagementSystem/
 └─ target/
 ```
 
+## Main Program File:
+➡ src/main/java/task5/MenuDrivenProgram.java
+
+
 ## How to Run
 1. Clone the repository:
    ```bash
    git clone https://github.com/AlanKJosephDev/StudentManagementSystem-Java.git
+   ```
 2. Open the project in Eclipse or IntelliJ IDEA
 3. Make sure MySQL is installed and running
 4. Create a database student_db and a student table:
