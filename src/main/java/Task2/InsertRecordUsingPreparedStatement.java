@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class InsertRecordUsingPreparedStatement {
 
 	public static void main(String[] args) throws SQLException {
-		Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/student_db", "root", "Root@123");
+		Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/student_db", "root", "Your_password");
 		
 		PreparedStatement stmt=con.prepareStatement("insert into student values(?,?)");
 		
