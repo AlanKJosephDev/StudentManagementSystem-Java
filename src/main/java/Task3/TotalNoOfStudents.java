@@ -10,7 +10,7 @@ public class TotalNoOfStudents {
 
 	public static void main(String[] args) {
 		try {
-			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/student_db", "root", "Root@123");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/student_db", "root", "Your_password");
 			
 			PreparedStatement ps=con.prepareStatement("select * from student;");
 			
