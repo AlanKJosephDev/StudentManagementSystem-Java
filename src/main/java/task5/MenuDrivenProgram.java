@@ -11,7 +11,7 @@ public class MenuDrivenProgram {
 
 	public static void main(String[] args) {
 		try {
-			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/student_db", "root", "Root@123");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/student_db", "root", "Your_password");
 			
 			while(true) {
 				System.out.println("Enter your choice\n1.Insert student\n2.Display all\n3.Update student\n4.Delete student\n5.Search student\n6.Exit");
