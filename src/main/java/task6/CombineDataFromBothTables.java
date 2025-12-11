@@ -10,7 +10,7 @@ public class CombineDataFromBothTables {
 
 	public static void main(String[] args) {
 		try {
-			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/student_db", "root", "Root@123");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/student_db", "root", "Your_password");
 			
 			PreparedStatement ps=con.prepareStatement("select s.id,s.name,sd.age,sd.mark from student s join student_details sd on s.id=sd.id;");
 			
