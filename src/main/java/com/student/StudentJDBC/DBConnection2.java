@@ -9,7 +9,7 @@ public class DBConnection2 {
 	public static void main(String[] args) throws Exception{
 		String url="jdbc:mysql://localhost:3306/student_db";
 		String name="root";
-		String password="Root@123";
+		String password="Your_password";
 		
 		Connection con=DriverManager.getConnection(url, name, password);
 		
